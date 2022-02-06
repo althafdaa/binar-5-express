@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  background-color: rgba(156, 131, 95, 1);
+}
+
+header h1 {
+  color: rgba(249, 178, 61, 1);
+}
+
+.container {
+  padding-right: 4rem;
+  padding-left: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  justify-content: center;
+}
+
+.player-side__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.com-side__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.player-side__choice {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: 3rem;
+}
+.com-side__choice {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 3rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(1.08);
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.result-container__reset {
+  position: absolute;
+  bottom: -2rem;
+}
+
+.fa-angle-left {
+  font-size: 72px;
+  color: rgba(114, 76, 33, 1);
+}
+
+/* conditionals */
+
+.player-selected {
+  padding: 2rem;
+  background: rgba(196, 196, 196, 1);
+  border-radius: 30px;
+}
+
+.versus {
+  color: rgba(189, 0, 0, 1);
+  font-size: 144px;
+  text-align: center;
+}
+
+.result-container__draw {
+  background: rgba(3, 91, 12, 1);
+  padding: 20px 40px;
+  color: white;
+  text-align: center;
+  transform: rotate(-30deg);
+}
+
+.result-container__win {
+  background: rgba(76, 150, 84, 1);
+  padding: 20px 40px;
+  color: white;
+  text-align: center;
+  transform: rotate(-30deg);
+}

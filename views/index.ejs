@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suit Game</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- MAINPAGE -->
+
+    <section class="d-flex flex-column justify-content-between" id="main">
+      <!-- NAVBAR -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-navbar fixed-top">
+        <div class="container-fluid py-2">
+          <a class="navbar-brand fw-bold fs-4 mx-lg-5" href="#">LOGO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FEATURE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto me-lg-5">
+              <li class="nav-item active">
+                <a class="nav-link" href="/login">SIGN UP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CONTENT -->
+      <main
+        class="container-fluid text-white d-flex flex-column text-center justify-content-center"
+      >
+        <h1 class="intro-text mb-5">PLAY TRADITIONAL GAME</h1>
+        <p class="fs-4 mb-5">Experience new traditional game play</p>
+        <a href="/games">
+          <button type="button" class="button-play">PLAY NOW</button>
+        </a>
+      </main>
+
+      <div
+        class="d-flex text-center text-white flex-column fw-bold main-next__section"
+      >
+        <span> <a class="link" href="#storypage"> THE STORY</a></span>
+        <span
+          ><a class="link" href="#storypage"
+            ><i class="bi bi-arrow-down-square"></i></a
+        ></span>
+      </div>
+    </section>
+
+    <!-- STORYPAGE -->
+    <section id="storypage">
+      <div
+        class="d-flex h-100 align-items-center justify-content-center storypage-container"
+      >
+        <div class="text-white story-text__container">
+          <h3>What is so special ?</h3>
+          <h1>THE GAMES</h1>
+        </div>
+
+        <!-- CAROUSEL -->
+        <div class="carousel-container col-md-6">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img
+                  src="assets/gambar resized.jpg "
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/gambar resized.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/gambar resized.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/gambar resized.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="assets/gambar resized.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE -->
+    <section class="d-flex" id="features">
+      <div class="filler-feature"></div>
+      <div class="feature-progress my-auto text-white">
+        <div class="mb-5 feature-text__container">
+          <h3>What is so special ?</h3>
+          <h1>FEATURES</h1>
+        </div>
+        <ul class="prog-bar list-unstyled">
+          <li class="list-1">
+            <span>TRADITIONAL GAMES</span>
+            <p>
+              if you miss your childhood, we provide many traditional games here
+            </p>
+          </li>
+          <li class="empty-list list-2"><span>GAME SUIT</span></li>
+        </ul>
+        <ul class="prog-bar list-unstyled">
+          <li class="empty-list__x list-3"><span>TBD</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- REQUIREMENTS -->
+    <section class="text-white p-5" id="sysreq">
+      <h3 class="text-center mb-5">Can My Computer Run This ?</h3>
+      <div class="sysreq-container m-lg-5">
+        <h1 class="mb-5">SYSTEM<br />REQUIREMENT</h1>
+
+        <table class="table table-bordered text-white">
+          <tr>
+            <td>
+              <span>OS:</span>
+              <p>Windows 7 64-bit only (No OSX support at this time)</p>
+            </td>
+            <td>
+              <span>PROCESSOR:</span>
+              <p>Intel Core 2 Duo @2.4 GHz or AMD Athlon X2 @2.8 GHz</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span>MEMORY:</span>
+              <p>4 GB RAM</p>
+            </td>
+            <td>
+              <span>STORAGE:</span>
+              <p>8 GB available space</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="graphic" colspan="2">
+              <span>GRAPHICS</span>
+              <p>
+                NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11
+                (Shader Model 5)
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- TOPSCORES -->
+    <section
+      class="d-flex justify-content-between align-items-center p-5"
+      id="topscores"
+    >
+      <div class="p-lg-5 m-lg-5 score-text__wrapper">
+        <h1 class="mb-4 text-white">TOP SCORES</h1>
+        <p class="mb-4 text-white">
+          This top scores from various game provided <br />
+          on this platform
+        </p>
+        <button type="button" class="button-scores">See More</button>
+      </div>
+
+      <div class="card-score__wrapper">
+        <div class="card-score evan">
+          <div class="card-score__name d-flex justify-content-between p-4">
+            <div class="d-flex">
+              <img
+                class="card-score__pic"
+                src="https://picsum.photos/200"
+                alt=""
+              />
+
+              <div class="card-score__id mx-4 my-auto">
+                <p><span>Evan Lahti</span></p>
+                <p class="card-score__tag">PC Gamer</p>
+              </div>
+            </div>
+            <img class="card-score__icon" src="/assets/twitter.svg" alt="" />
+          </div>
+          <div class="card-score__text px-4 pb-4">
+            <p>"One of my gaming highlights of the year."</p>
+            <text>June 18, 2021</text>
+          </div>
+        </div>
+
+        <div class="card-score jade">
+          <div class="card-score__name d-flex justify-content-between p-4">
+            <div class="d-flex">
+              <img
+                class="card-score__pic"
+                src="https://picsum.photos/201"
+                alt=""
+              />
+              <div class="card-score__id mx-4 my-auto">
+                <p><span>Jade Griffin</span></p>
+                <p class="card-score__tag">Nerd Reactor</p>
+              </div>
+            </div>
+            <img class="card-score__icon" src="/assets/twitter.svg" alt="" />
+          </div>
+          <div class="card-score__text px-4 pb-4">
+            <p>
+              "The next big thing in the world of streaming and survival games."
+            </p>
+            <text>July 10, 2021</text>
+          </div>
+        </div>
+
+        <div class="card-score aaron">
+          <div class="card-score__name d-flex justify-content-between p-4">
+            <div class="d-flex">
+              <img
+                class="card-score__pic"
+                src="https://picsum.photos/103"
+                alt=""
+              />
+              <div class="card-score__id mx-4 my-auto">
+                <p><span>Aaron Williams</span></p>
+                <p class="card-score__tag">Uproxx</p>
+              </div>
+            </div>
+            <img class="card-score__icon" src="/assets/twitter.svg" alt="" />
+          </div>
+          <div class="card-score__text px-4 pb-4">
+            <p>
+              "Snoop Dogg Playing the Wildly Entertaining 'SOS' is Ridiculous"
+            </p>
+            <text>December 24, 2018</text>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter">
+      <div
+        class="container h-100 w-100 d-flex flex-column justify-content-between text-white"
+      >
+        <!-- main news -->
+        <div class="main-news row d-flex align-items-center h-100">
+          <div class="col-md-6 news-filler">
+            <img src="assets/stone_2.png" class="img-stone" alt="stone" />
+          </div>
+          <div class="col-md-6">
+            <h3 class="mb-4">Want to stay in touch ?</h3>
+            <h1 class="mb-4">NEWSLETTER<br />SUBSCRIBE</h1>
+            <p class="mb-5">
+              In order to start receiving our news, all you have to do is enter
+              your email address. Everything else will be taken care of by us.
+              We will send you emails containing information about game. We
+              don’t spam.
+            </p>
+            <div class="row">
+              <div class="col-lg-6 input-container">
+                <label for="email">your email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control py-2 pe-5"
+                  placeholder="youremail@binar.co.id"
+                />
+              </div>
+              <div class="col-lg-6 button-container">
+                <button type="button" class="button-subscribe">
+                  Subscribe now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- another nav -->
+        <div class="container navbar-bottom mt-5">
+          <div class="d-flex justify-content-end">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">MAIN</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">GAME OF FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">SYSTEM REQUIREMENTS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">QUOTE</a>
+              </li>
+            </ul>
+            <!-- icons -->
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><img src="assets/facebook.svg" alt=""
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><svg
+                    width="22"
+                    height="17"
+                    viewBox="0 0 22 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M21.2138 2.42967C20.4408 2.75167 19.6098 2.96667 18.7388 3.06467C19.6288 2.56467 20.3118 1.77267 20.6338 0.830668C19.7998 1.29267 18.8778 1.62867 17.8958 1.81067C17.1108 1.02467 15.9898 0.534668 14.7508 0.534668C12.3708 0.534668 10.4398 2.34367 10.4398 4.57367C10.4398 4.89067 10.4778 5.19967 10.5518 5.49467C6.96981 5.32567 3.79381 3.71767 1.66781 1.27467C1.29681 1.87167 1.08481 2.56467 1.08481 3.30567C1.08481 4.70567 1.84581 5.94367 3.00181 6.66767C2.29581 6.64567 1.63181 6.46467 1.04981 6.16167C1.04981 6.17967 1.04981 6.19467 1.04981 6.21367C1.04981 8.17067 2.53481 9.80267 4.50681 10.1737C4.14581 10.2657 3.76381 10.3137 3.37181 10.3137C3.09381 10.3137 2.82381 10.2897 2.56081 10.2437C3.10881 11.8467 4.70081 13.0157 6.58681 13.0487C5.11181 14.1317 3.25381 14.7767 1.23381 14.7767C0.885811 14.7767 0.542811 14.7577 0.205811 14.7207C2.11281 15.8657 4.37881 16.5357 6.81281 16.5357C14.7408 16.5357 19.0758 10.3797 19.0758 5.04267C19.0758 4.86667 19.0708 4.69367 19.0628 4.51967C19.9048 3.94967 20.6358 3.23867 21.2138 2.42967Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><svg
+                    width="26"
+                    height="19"
+                    viewBox="0 0 26 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.61 0.183594H5.98961C3.12627 0.183594 0.799805 2.55085 0.799805 5.4644V12.8973C0.799805 15.8163 3.12627 18.1781 5.98961 18.1781H20.6046C23.4733 18.1781 25.7944 15.8108 25.7944 12.8973V5.4644C25.7998 2.55085 23.4733 0.183594 20.61 0.183594ZM17.0959 9.54779L10.2575 12.8642C10.0731 12.9524 9.86705 12.82 9.86705 12.6103V5.7679C9.86705 5.55821 10.084 5.42578 10.2629 5.51958L17.1013 9.04564C17.3074 9.15048 17.302 9.44846 17.0959 9.54779Z"
+                      fill="#FF1313"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                  <i class="bi bi-twitch"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <footer
+            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+          >
+            <p class="col-md-6 mb-0 text-muted">
+              © Your Games, Inc. All Rights Reserved
+            </p>
+
+            <ul class="nav col-md-6 justify-content-end">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">PRIVACY POLICY</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">TERMS OF SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">CODE OF CONDUCT</a>
+              </li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+    </section>
+    <!-- JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
