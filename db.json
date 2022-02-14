@@ -1,17 +1,10 @@
 [
+  { "id": 1, "name": "althafdaa", "email": "asd@gmail.com", "password": "123" },
   {
-    "id": 1,
+    "id": 2,
     "name": "althafdaa",
+    "email": "tes@gmail.com",
     "password": "123456"
   },
-  {
-    "id": 1,
-    "name": "nani",
-    "password": "123456"
-  },
-  {
-    "id": 3,
-    "name": "astaga",
-    "password": "123456"
-  }
+  { "id": 3, "email": "bisa@gmail.com", "password": "gamers" }
 ]
